@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "category_name": "Online",
+      "description": "Services available remotely, including counseling, resume reviews, and profile optimization.",
+      "button": "Explore Online Services",
+      "image": "https://i.ibb.co.com/5Xtnhsb6/online.jpg"
+    },
+    {
+      "id": 2,
+      "category_name": "Offline",
+      "description": "In-person workshops, training, and networking events to enhance your career skills.",
+      "button": "Join Offline Events",
+      "image": "https://i.ibb.co.com/bjR1B4VN/offline.jpg"
+    },
+    {
+      "id": 3,
+      "category_name": "Group",
+      "description": "Group sessions for career counseling, team-building, and collaborative learning.",
+      "button": "Join Group Sessions",
+      "image": "https://i.ibb.co.com/DgR1gm91/group.jpg"
+    },
+    {
+      "id": 4,
+      "category_name": "Hybrid",
+      "description": "A mix of online and offline learning experiences for a flexible career development approach.",
+      "button": "Explore Hybrid Programs",
+      "image": "https://i.ibb.co.com/Df7svmws/hybrid.jpg"
+    },
+    {
+      "id": 5,
+      "category_name": "Internship",
+      "description": "Guidance and training to help students and professionals secure internships successfully.",
+      "button": "Get Internship Assistance",
+      "image": "https://i.ibb.co.com/4ZSkqskt/internnship.jpg"
+    },
+    {
+      "id": 6,
+      "category_name": "Freelancing",
+      "description": "Resources and programs to start, grow, and optimize your freelancing career.",
+      "button": "Start Freelancing",
+      "image": "https://i.ibb.co.com/3mnY5BKq/freelancing.jpg"
+    }
+  ]
+  
