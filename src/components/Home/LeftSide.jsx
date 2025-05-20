@@ -1,4 +1,4 @@
-import photo from "../../assest/internnship.jpg"
+import photo from "../../../public/assest/internnship.jpg"
 
 const LeftSide = () => {
     return (
