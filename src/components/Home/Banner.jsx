@@ -1,8 +1,8 @@
- import hybrid from '../../../src/assest/hybrid.jpg'
+ import hybrid from '/public/assest/hybrid.jpg'
  const Banner = () => {
     return (
       <div className="relative bg-cover bg-center text-white py-20 px-5 rounded-2xl shadow-lg" 
-        style={{ backgroundImage: `url(${hybrid})`}}>
+        style={ { backgroundImage: `url(${hybrid})` }}>
         
         <div className="bg-black/50 p-10 rounded-xl">
           <h1 className="text-4xl font-bold mb-4">Shape Your Future with Expert Career Guidance</h1>

@@ -10,12 +10,14 @@ const VewServices = () => {
   const data = useLoaderData();
   console.log(data)
 
-  useEffect(() => {
-    if (data) {
-      const filteredServices = data.filter(item => item.category === category);
-      setServices(filteredServices);
-    }
-  }, [data]); // ✅ Only updates when `category` or `data` changes
+ useEffect(() => {
+  if (Array.isArray(data)) {
+    const filteredServices = data.filter(item => item.category === category);
+    setServices(filteredServices);
+  } else {
+    setServices([]); // fallback to empty array
+  }
+}, [data, category]);// ✅ Only updates when `category` or `data` changes
 
   console.log(category);
   console.log(services)
@@ -28,9 +30,9 @@ const VewServices = () => {
 </Helmet>
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
-        {
-            services.map((service,index)=><ServiceDetails key={index} service={service}></ServiceDetails>)
-        }
+        {Array.isArray(services) && services.map((service, index) => (
+  <ServiceDetails key={index} service={service} />
+))}
       </div>
     </div>
   

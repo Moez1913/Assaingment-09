@@ -28,12 +28,12 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('/public/category.json')
+        loader: () => fetch('/category.json')
       },
       {
         path: '/services/:category',
         element:<PrivetRout><VewServices></VewServices></PrivetRout>,
-        loader:()=> fetch('/public/services.json')
+        loader:()=> fetch('/services.json')
       }, 
       {
         path:'/feedback',

@@ -26,4 +26,4 @@ Empowering your career journey!
 
 ## Live Link
 
-[View CareerGuidePro Live](https://your-deployment-link.com)
+[View CareerGuidePro Live](http://famous-idea.surge.sh/)

@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import logo from '../../public/assest/navLogo.png';
+import logo from '/assest/navLogo.png';
 import { CgProfile } from 'react-icons/cg';
 import { AuthContext } from '../Providers/AuthProvider';
 import { toast, ToastContainer } from 'react-toastify';
